@@ -1,0 +1,18 @@
+*, body {
+	background-color: #252525;
+    font-family: 'Cantarell', sans-serif;
+    color: #eee;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.header {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.f-logo {
+	max-width: 200px;
+}
