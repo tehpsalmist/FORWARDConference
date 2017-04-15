@@ -20,10 +20,23 @@
   line-height: 1.4;
   color: #777;
 }
+
 @media (min-width: 768px) {
   .lead-date-time {
     font-size: 18px;
   }
+}
+
+.logo-text {
+  color: rgb(0, 185, 200);
+  font-size: 36px;
+}
+
+ul {
+  list-style: none;
+  font-size: 20px;
+  line-height: 2;
+  padding: 0;
 }
 
 .f-logo {
@@ -40,6 +53,11 @@
 
 .profile-text {
     vertical-align: middle;
+}
+
+.padding {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .d-flex {
