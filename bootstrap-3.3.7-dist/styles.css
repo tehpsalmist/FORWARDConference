@@ -4,12 +4,6 @@
     color: #eee;
 }
 
-@media screen and (min-width: 992px) {
-  p {
-    font-size: 18px;
-  }
-}
-
 .container {
     max-width: 960px;
 }
@@ -53,14 +47,6 @@ ul {
     max-width: 300px;
 }
 
-.profile-pic-container {
-    vertical-align: middle;
-}
-
-.profile-text {
-    vertical-align: middle;
-}
-
 .padding {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -81,6 +67,12 @@ ul {
       -ms-flex-item-align: center !important;
               -ms-grid-row-align: center !important;
           align-self: center !important;
+}
+
+@media screen and (min-width: 992px) {
+  p {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 767px) {
