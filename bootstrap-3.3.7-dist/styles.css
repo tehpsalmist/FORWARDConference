@@ -32,6 +32,10 @@
   font-size: 36px;
 }
 
+.forward-blue {
+  color: rgb(0, 185, 200);
+}
+
 #itinerary {
   list-style: none;
   font-size: 20px;
