@@ -8,6 +8,11 @@
     max-width: 960px;
 }
 
+.row:before,
+.row:after {
+    content: none;
+}
+
 .header {
     width: 100%;
     margin-top: 20px;
@@ -71,10 +76,10 @@
 }
 
 .align-self-center {
-  -webkit-align-self: center !important;
-      -ms-flex-item-align: center !important;
-              -ms-grid-row-align: center !important;
-          align-self: center !important;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -88,7 +93,7 @@
         order: 2;
     }
     .profile-pic-container {
-        order: -1;
+        order: 1;
     }
 }
 
