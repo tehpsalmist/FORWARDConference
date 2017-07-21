@@ -8,8 +8,8 @@
     max-width: 960px;
 }
 
-.row:before,
-.row:after {
+.d-flex:before,
+.d-flex:after {
     content: none;
 }
 
